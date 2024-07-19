@@ -19,12 +19,14 @@ This project is a React-based application that creates a 3x3 matrix of cells. Us
 ### 1. Initialize the Project
 
 1. **Create a React App**: 
-    ```bash
+    ```
     npm create vite@latest my-react-app --template react
+```
+
+```js
 cd my-react-app
 npm install
-
-    ```
+```
 
 2. **Install Tailwind CSS**:
     Follow the [Tailwind CSS installation guide](https://tailwindcss.com/docs/guides/create-react-app) to set up Tailwind CSS with Create React App.
