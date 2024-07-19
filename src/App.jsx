@@ -1,10 +1,10 @@
 
-import MatrixComp from './components/MatrixComp';
+import Matrix from './components/Matrix';
 
 const App = () => {
   return (
     <>
-    <MatrixComp/>
+    <Matrix/>
     </>
   );
 };
