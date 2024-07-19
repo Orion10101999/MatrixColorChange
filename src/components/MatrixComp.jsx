@@ -26,9 +26,9 @@ const MatrixComp = () => {
             setClickOrder([...clickOrder,index])
             setMatrix(newMatrix)
         }
-        if(index===8) {
+        if (index === 8 && matrix[index] === 'white') {
             console.log('Auto');
-            setAuto(true)   
+            setAuto(true);
         }
     }
     useEffect(()=>{

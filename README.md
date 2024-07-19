@@ -63,10 +63,10 @@ npm install
                 setClickOrder([...clickOrder, index]);
                 setMatrix(newMatrix);
             }
-            if (index === 8) {
-                console.log('Auto');
-                setAuto(true);
-            }
+            if (index === 8 && matrix[index] === 'white') {
+            console.log('Auto');
+            setAuto(true);
+        }
         };
 
         useEffect(() => {
