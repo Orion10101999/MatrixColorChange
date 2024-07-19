@@ -23,7 +23,6 @@ This project is a React-based application that creates a 3x3 matrix of cells. Us
     npm create vite@latest my-react-app --template react
 ```
 
-```js
 cd my-react-app
 npm install
 ```
