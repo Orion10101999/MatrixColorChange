@@ -1,6 +1,21 @@
 
-import Matrix from './components/Matrix';
 
+import MatrixComp from './components/MatrixComp';
+
+const App = () => {
+  return (
+    <>
+    <MatrixComp/>
+    </>
+  );
+};
+
+export default App;
+
+
+/*
+
+import Matrix from './components/Matrix';
 const App = () => {
   return (
     <>
@@ -10,3 +25,6 @@ const App = () => {
 };
 
 export default App;
+
+
+*/
