@@ -1,4 +1,16 @@
+# Deployed Website link :-
+
+
+```bash
+
+https://matrix-color-change.vercel.app/
+```
+
 # Matrix Animation Project
+
+
+
+
 
 This project is a React-based application that creates a 3x3 matrix of cells. Users can click on cells to change their color to green. When the ninth cell is clicked, the colors of the previously clicked cells change to orange in a specified order with a delay between each change. The application also includes a reset button to revert the matrix to its initial state.
 
