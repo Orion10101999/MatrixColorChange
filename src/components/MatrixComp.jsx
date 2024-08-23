@@ -44,6 +44,7 @@ const MatrixComp = () => {
     }
     return (
         <div className='flex flex-col gap-5 justify-center items-center h-screen'>
+         
             <div className='grid grid-cols-3 gap-1'>
                 {matrix.map((currElem, index) => {
                     return <div
@@ -64,6 +65,10 @@ const MatrixComp = () => {
             >
                 Reset
             </button>
+
+            <p className="text-center text-white mx-10 mt-5">
+        This project is a React-based application that creates a 3x3 matrix of cells. Users can click on cells to change their color to green. When the ninth cell is clicked, the colors of the previously clicked cells change to orange in a specified order with a delay between each change. The application also includes a reset button to revert the matrix to its initial state.
+      </p>
         </div>
     )
 }
